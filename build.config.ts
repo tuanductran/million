@@ -17,6 +17,7 @@ export default defineBuildConfig({
     './packages/react',
     './packages/react-server',
     './packages/types',
+    './packages/cli',
   ],
   declaration: true,
   clean: true,
