@@ -3,12 +3,6 @@
   "bin": {
     "million": "./dist/index.js"
   },
-  "dependencies": {
-    "@antfu/ni": "^0.21.8",
-    "@clack/prompts": "^0.7.0",
-    "diff": "^5.1.0",
-    "kleur": "^4.1.5"
-  },
   "scripts": {
     "prepare": "node build.mjs",
     "link": "yarn unlink --global && chmod +x dist/index.js && yarn link",
@@ -17,8 +11,6 @@
     "clean": "rm -r dist node_modules"
   },
   "devDependencies": {
-    "@types/diff": "^5.0.3",
-    "@types/gradient-string": "^1.1.2",
     "@types/node": "^18.14.1",
     "esbuild": "^0.14.54",
     "esbuild-plugin-replace": "^1.4.0",
