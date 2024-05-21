@@ -1,3 +1,5 @@
+> Want to **automatically find and fix performance issues**? Check out [Million Lint](https://million.dev/).
+
 <a href="https://million.dev">
   <img src="https://raw.githubusercontent.com/aidenybai/million/main/.github/assets/banner.png" alt="Million.js Banner" />
 </a>

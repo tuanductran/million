@@ -15,8 +15,8 @@ importers:
         specifier: ^7.23.6
         version: 7.23.6
       '@million/install':
-        specifier: latest
-        version: 0.0.2
+        specifier: ^0.0.3
+        version: 0.0.3
       '@rollup/pluginutils':
         specifier: ^5.1.0
         version: 5.1.0(rollup@4.9.2)
@@ -1186,8 +1186,8 @@ packages:
   '@microsoft/tsdoc@0.14.2':
     resolution: {integrity: sha512-9b8mPpKrfeGRuhFH5iO1iwCLeIIsV6+H1sRfxbkoGXIyQE2BTsPd9zqSqQJ+pv5sJ/hT5M1zvOFL02MnEezFug==}
 
-  '@million/install@0.0.2':
-    resolution: {integrity: sha512-7IJvKpWoTgKFdT57/T2fPnBcqaVpBNGtvrlbSOZ2y/76N2GA9tVRmG0dccOC4glbO5MKqUJrtBWtvbtIINFiaw==}
+  '@million/install@0.0.3':
+    resolution: {integrity: sha512-yK8NgP+73+Tby/bmQ12B96bJ7RjsLazLtFgBed1Fg1WfTCCpHTILq79yQMSD/OWgm1tt1NYV4ELaTRM6wZOeAg==}
     hasBin: true
 
   '@napi-rs/simple-git-android-arm-eabi@0.1.9':
@@ -7026,7 +7026,7 @@ snapshots:
 
   '@microsoft/tsdoc@0.14.2': {}
 
-  '@million/install@0.0.2':
+  '@million/install@0.0.3':
     dependencies:
       '@antfu/ni': 0.21.12
       '@axiomhq/js': 1.0.0-rc.3
