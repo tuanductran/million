@@ -1,6 +1,6 @@
 {
   "name": "million",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "description": "Make React Faster. Automatically.",
   "keywords": [
     "million",
@@ -130,7 +130,7 @@
   "dependencies": {
     "@babel/core": "^7.23.7",
     "@babel/types": "^7.23.6",
-    "@million/install": "^0.0.3",
+    "@million/install": "^0.0.4",
     "@rollup/pluginutils": "^5.1.0",
     "kleur": "^4.1.5",
     "undici": "^6.3.0",
