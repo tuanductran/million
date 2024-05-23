@@ -15,8 +15,8 @@ importers:
         specifier: ^7.23.6
         version: 7.23.6
       '@million/install':
-        specifier: ^0.0.4
-        version: 0.0.4
+        specifier: ^0.0.5
+        version: 0.0.5
       '@rollup/pluginutils':
         specifier: ^5.1.0
         version: 5.1.0(rollup@4.9.2)
@@ -1186,8 +1186,8 @@ packages:
   '@microsoft/tsdoc@0.14.2':
     resolution: {integrity: sha512-9b8mPpKrfeGRuhFH5iO1iwCLeIIsV6+H1sRfxbkoGXIyQE2BTsPd9zqSqQJ+pv5sJ/hT5M1zvOFL02MnEezFug==}
 
-  '@million/install@0.0.4':
-    resolution: {integrity: sha512-Q9EGDNY7rHG3bEfLktFVAl01IP5qs+MEj+sNFFBmyd8UYpWaYP5LxadTc+72t/Nv5Q2RdS/DDy0Fw9OUkE7oxw==}
+  '@million/install@0.0.5':
+    resolution: {integrity: sha512-9KYVwMT6yEX0k/DMo8cOQNxeFdZme/yTqncPwXgvoQ0qUAUkulvm0ivRHTYrsuPNrCA6lqsJD005D1hhuI2fGQ==}
     hasBin: true
 
   '@napi-rs/simple-git-android-arm-eabi@0.1.9':
@@ -4364,6 +4364,11 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
+  nanoid@5.0.7:
+    resolution: {integrity: sha512-oLxFY2gd2IqnjcYyOXD8XGCftpGtZP2AbHbOkthDkvRywH5ayNtPVy9YlOPcHckXzbLTCHpkb7FB+yuxKV13pQ==}
+    engines: {node: ^18 || >=20}
+    hasBin: true
+
   natural-compare-lite@1.4.0:
     resolution: {integrity: sha512-Tj+HTDSJJKaZnfiuw+iaF9skdPpTo2GtEly5JHnWV/hfv2Qj/9RKsGISQtLh2ox3l5EAGw487hnBee0sIJ6v2g==}
 
@@ -7026,7 +7031,7 @@ snapshots:
 
   '@microsoft/tsdoc@0.14.2': {}
 
-  '@million/install@0.0.4':
+  '@million/install@0.0.5':
     dependencies:
       '@antfu/ni': 0.21.12
       '@axiomhq/js': 1.0.0-rc.3
@@ -7035,6 +7040,7 @@ snapshots:
       '@clack/prompts': 0.7.0
       cli-high: 0.4.1
       diff: 5.1.0
+      nanoid: 5.0.7
       posthog-node: 3.6.3
       xycolors: 0.1.1
     transitivePeerDependencies:
@@ -10826,6 +10832,8 @@ snapshots:
       thenify-all: 1.6.0
 
   nanoid@3.3.7: {}
+
+  nanoid@5.0.7: {}
 
   natural-compare-lite@1.4.0: {}
 
