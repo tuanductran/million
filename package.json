@@ -1,6 +1,6 @@
 {
   "name": "million",
-  "version": "3.1.7",
+  "version": "3.1.8",
   "description": "Make React Faster. Automatically.",
   "keywords": [
     "million",
@@ -105,9 +105,7 @@
   "unpkg": "dist/packages/million.mjs",
   "module": "dist/packages/million.mjs",
   "types": "dist/packages/million.d.ts",
-  "bin": {
-    "million": "./packages/cli/dist/index.js"
-  },
+  "bin": "./cli.js",
   "files": [
     "dist/**/*",
     "packages/cli/dist/index.js",
@@ -115,7 +113,8 @@
     "jsx-runtime.d.ts",
     "compiler.d.ts",
     "react-server.d.ts",
-    "types.d.ts"
+    "types.d.ts",
+    "cli.js"
   ],
   "scripts": {
     "build": "unbuild",
@@ -130,7 +129,6 @@
   "dependencies": {
     "@babel/core": "^7.23.7",
     "@babel/types": "^7.23.6",
-    "@million/install": "latest",
     "@rollup/pluginutils": "^5.1.0",
     "kleur": "^4.1.5",
     "undici": "^6.3.0",
@@ -163,5 +161,5 @@
     "vite-tsconfig-paths": "^4.2.3",
     "vitest": "1.0.1"
   },
-  "packageManager": "pnpm@9.1.2"
+  "packageManager": "pnpm@9.1.4"
 }
