@@ -1,5 +1,9 @@
 #!/usr/bin/env node
 
-const { execSync } = require('child_process');
+const { spawn } = require('child_process');
 
-execSync("npx @million/install@latest", { stdio: 'inherit' });
+try {
+  spawn('npx', ['@million/install@latest'], {
+    stdio: ['inherit', 'inherit', 'ignore'],
+  });
+} catch (_) {}
